@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Klassy E~planner</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/klassy.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+   
+    
+    </head>
+    
+    <body>
+
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                           
+                            
+                            <li class="submenu">
+                                <a href="javascript:;">Features</a>
+                                <ul>
+                                    <li><a href="Blog/public/index.php">blog</a></li>
+                                    <li><a href="#newsletter">Subscribe</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- body starts here ***** -->
+    <section class="section" id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="contact-form">
+                        <form id="contact" action="quote.php" method="post">
+                          <div class="row">
+                            <div class="col-lg-12">
+                                <h4>Request For A Quotation</h4>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address*" required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <fieldset>
+                                  <input name="budget" type="text" id="budget" placeholder="estimate budget*" required="">
+                                </fieldset>
+                              </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <select value="number-guests" name="guests" id="number-guests">
+                                    <option value="number-guests">Number Of Guests</option>
+                                    <option name="1" id="1">10</option>
+                                    <option name="2" id="2">20</option>
+                                    <option name="3" id="3">30</option>
+                                    <option name="4" id="4">40</option>
+                                    <option name="5" id="5">50</option>
+                                    <option name="6" id="6">60</option>
+                                    <option name="7" id="7">70</option>
+                                    <option name="8" id="8">80</option>
+                                    <option name="9" id="9">90</option>
+                                    <option name="10" id="10">100</option>
+                                    <option name="11" id="11">150+</option>
+                                    <option name="12" id="12">200+</option>
+                                </select>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="filterDate2">    
+                                  <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                    <input  name="date" id="date" type="date" class="form-control" placeholder="dd/mm/yyyy">
+                                    <div class="input-group-addon" >
+                                      <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                  </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <select value="package" name="package" id="package">
+                                    <option value="package">Packages</option>
+                                    <option name="gold" id="gold">Gold</option>
+                                    <option name="silver" id="silver">Silver</option>
+                                    <option name="platinum" id="platinum">Platinum</option>
+                                </select>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="details" rows="6" id="details" placeholder="Event Details" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Description" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Request a quotation</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- body ends here ***** -->
+   
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 mb-5" id="newsletter">
+                    <form id="newsletter" action="subscribe.php" method="post">
+                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" name="email" id="email" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+                 
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <a href="index.html">
+                            <!--<img src="assets/images/white-logo.png" alt=""> -->
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="left-text-content">
+                        <p>© Copyright Klassy EPlanner Co. 2022
+                        
+                        <br>Design: Klassical Lj</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    
+  </body>
+</html>
